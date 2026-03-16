@@ -2,11 +2,12 @@ import re
 import json
 import requests
 import argparse
+import os
 from bs4 import BeautifulSoup
 import validators
 
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = os.getenv("OLLAMA_URL","http://ollama:11434/api/generate")
 
 
 # ---------------- Fetch & Clean Webpage ----------------
