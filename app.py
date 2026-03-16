@@ -7,7 +7,7 @@ from parallel_summary import summarize_url_parallel
 
 st.set_page_config(
     page_title="AI Web Page Summarizer",
-    page_icon="🧠",
+    page_icon="🔱",
     layout="centered"
 )
 
