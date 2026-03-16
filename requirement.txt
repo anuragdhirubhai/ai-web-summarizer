@@ -1,0 +1,6 @@
+requests #download webpage
+beautifulSoup4 #parse html and scrape readable texts
+google-generativeai #geminni
+python-dotenv #loads api keys from .env
+validators #validate url
+streamlit #for UI creation
